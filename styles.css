@@ -1,0 +1,308 @@
+/* ---------- Home page ---------- */
+
+#quarto-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.name-heading {
+  font-family: "Lora", Georgia, serif;
+  font-size: 1.9rem;
+  font-weight: 500;
+  color: #1a1a1a;
+  margin-bottom: 0.2rem;
+}
+
+.subtitle {
+  font-size: 0.95rem;
+  color: #6b6b6b;
+  margin-bottom: 2.5rem;
+}
+
+.home-flex {
+  display: flex;
+  gap: 2.5rem;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.avatar-circle {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  background: #ededed;
+  border: 1px solid #d8d8d8;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.avatar-circle img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 20%;
+}
+
+.bio-text p {
+  font-size: 0.95rem;
+  line-height: 1.85;
+  max-width: 460px;
+  margin-bottom: 1rem;
+}
+
+.divider-verse {
+  display: block;
+  margin: 2.5rem auto 1.5rem;
+  width: 100%;
+  max-width: 640px;
+}
+
+.social-row {
+  display: flex;
+  gap: 0.85rem;
+  justify-content: center;
+  margin-bottom: 0.9rem;
+}
+
+.social-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #ededed;
+  border: 1px solid #d8d8d8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1a1a1a;
+  text-decoration: none;
+}
+
+.social-icon:hover {
+  background: #e0e0e0;
+}
+
+.contact-row {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 0.85rem;
+  color: #6b6b6b;
+}
+
+.contact-row i {
+  color: #1a1a1a;
+  margin-right: 0.35rem;
+}
+
+/* ---------- Section headers (used on Publications, Research, Teaching) ---------- */
+
+.section-label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 0.3rem;
+}
+
+.section-rule {
+  height: 1.5px;
+  width: 40px;
+  background: #1a1a1a;
+  margin-bottom: 1rem;
+  border: none;
+}
+
+/* ---------- Publications ---------- */
+
+.pub-entry {
+  padding: 0.9rem 0;
+  border-bottom: 0.5px solid #e5e5e5;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.pub-entry .citation {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: #333333;
+}
+
+.pub-entry .links {
+  display: flex;
+  gap: 0.6rem;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+.pub-entry .links a {
+  font-size: 0.8rem;
+  color: #1a1a1a;
+  text-decoration: none;
+}
+
+.pub-entry .links a:hover {
+  text-decoration: underline;
+}
+
+.pub-section {
+  margin-bottom: 2rem;
+}
+
+/* ---------- Research ---------- */
+
+.tag-row {
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  margin: 1rem 0 2rem;
+}
+
+.tag {
+  font-size: 0.75rem;
+  color: #1a1a1a;
+  background: #ededed;
+  border: 1px solid #d8d8d8;
+  padding: 0.3rem 0.75rem;
+  border-radius: 14px;
+}
+
+.group-entry {
+  padding: 0.7rem 0;
+  border-bottom: 0.5px solid #e5e5e5;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  color: #333333;
+}
+
+.group-entry .dates {
+  color: #8a8a8a;
+  font-size: 0.8rem;
+}
+
+/* ---------- Teaching ---------- */
+
+.teaching-institution {
+  margin-bottom: 2rem;
+}
+
+.course-entry {
+  padding: 0.7rem 0;
+  border-bottom: 0.5px solid #e5e5e5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+}
+
+.course-entry .role {
+  color: #8a8a8a;
+  font-weight: 400;
+}
+
+.course-entry .term {
+  color: #8a8a8a;
+  font-size: 0.8rem;
+  white-space: nowrap;
+}
+
+/* ---------- CV page ---------- */
+
+.cv-cards {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 2rem 0 1rem;
+}
+
+.cv-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 1.4rem 2rem;
+  border: 1px solid #d8d8d8;
+  border-radius: 10px;
+  width: 150px;
+  text-decoration: none;
+  color: #1a1a1a;
+}
+
+.cv-card:hover {
+  background: #fafafa;
+}
+
+.cv-card i {
+  font-size: 1.6rem;
+}
+
+.cv-updated {
+  text-align: center;
+  font-size: 0.75rem;
+  color: #a6a196;
+  margin-top: 1rem;
+}
+
+/* ---------- Other page ---------- */
+
+.other-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.other-card {
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  padding: 1.3rem;
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.other-card:hover {
+  background: #fafafa;
+}
+
+.other-card i {
+  font-size: 1.3rem;
+  color: #1a1a1a;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.other-card .title {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #1a1a1a;
+  margin-bottom: 0.3rem;
+}
+
+.other-card .desc {
+  font-size: 0.8rem;
+  color: #6b6b6b;
+  line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+  .other-grid {
+    grid-template-columns: 1fr;
+  }
+  .home-flex {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .bio-text p {
+    max-width: 100%;
+  }
+}
